@@ -1,0 +1,39 @@
+{
+  "canisters": {
+    "CryptoCanvas": {
+      "main": "src/CryptoCanvas/main.mo",
+      "type": "motoko"
+    },
+    "nft": {
+      "main": "src/NFT/nft.mo",
+      "type": "motoko"
+    },
+    "CryptoCanvas_assets": {
+      "dependencies": [
+        "CryptoCanvas"
+      ],
+      "frontend": {
+        "entrypoint": "src/CryptoCanvas_assets/src/index.html"
+      },
+      "source": [
+        "src/CryptoCanvas_assets/assets",
+        "dist/CryptoCanvas_assets/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "dfx": "0.9.3",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}

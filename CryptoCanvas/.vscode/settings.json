@@ -1,0 +1,11 @@
+{
+    "explorer.decorations.colors": false,
+    "explorer.decorations.badges": true,
+    "outline.problems.colors": false,
+    "outline.problems.badges": false,
+    "window.commandCenter": true,
+    "workbench.editor.decorations.colors": false,
+    "workbench.iconTheme": "vs-seti",
+    "workbench.statusBar.visible": false,
+    "problems.decorations.enabled": false
+}
